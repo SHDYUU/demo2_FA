@@ -1,0 +1,11 @@
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 22:08:49 on Apr 13,2026
+# Loading work.testbench
+# Loading work.full_adder
+run
+run -all
+run -all
+run -all
+# End time: 22:17:37 on Apr 13,2026, Elapsed time: 0:08:48
+# Errors: 0, Warnings: 2
