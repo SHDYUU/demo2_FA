@@ -1,11 +1,17 @@
+# Compile of full_adder.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
 vsim work.testbench
 # vsim work.testbench 
-# Start time: 22:08:49 on Apr 13,2026
+# Start time: 22:47:32 on Apr 16,2026
 # Loading work.testbench
 # Loading work.full_adder
-run
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/cin
+add wave -position end  sim:/testbench/cout
+add wave -position end  sim:/testbench/sum
 run -all
-run -all
-run -all
-# End time: 22:17:37 on Apr 13,2026, Elapsed time: 0:08:48
-# Errors: 0, Warnings: 2
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Lenovo/Documents/FPGA_Demo/T09/demo2_FA/wave.do
+# End time: 22:48:33 on Apr 16,2026, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 9
